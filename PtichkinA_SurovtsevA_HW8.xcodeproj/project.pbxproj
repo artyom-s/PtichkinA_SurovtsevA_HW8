@@ -15,6 +15,7 @@
 		048DCCFD2306D67600643DA9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCCFC2306D67600643DA9 /* ThirdViewController.swift */; };
 		048DCCFF2306D68E00643DA9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCCFE2306D68E00643DA9 /* FourthViewController.swift */; };
 		048DCD012306D69B00643DA9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCD002306D69B00643DA9 /* FifthViewController.swift */; };
+		048DCD042307272300643DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DCD032307272300643DA9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		048DCCFC2306D67600643DA9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		048DCCFE2306D68E00643DA9 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		048DCD002306D69B00643DA9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		048DCD032307272300643DA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				048DCCE62306C85A00643DA9 /* Main.storyboard */,
 				048DCCEB2306C85B00643DA9 /* LaunchScreen.storyboard */,
 				048DCCEE2306C85B00643DA9 /* Info.plist */,
+				048DCD032307272300643DA9 /* Images.xcassets */,
 			);
 			path = PtichkinA_SurovtsevA_HW8;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048DCD042307272300643DA9 /* Images.xcassets in Resources */,
 				048DCCED2306C85B00643DA9 /* LaunchScreen.storyboard in Resources */,
 				048DCCE82306C85A00643DA9 /* Main.storyboard in Resources */,
 			);
@@ -302,9 +306,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M2XQD5NDX;
 				INFOPLIST_FILE = PtichkinA_SurovtsevA_HW8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +326,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M2XQD5NDX;
 				INFOPLIST_FILE = PtichkinA_SurovtsevA_HW8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
