@@ -47,7 +47,7 @@ extension FifthViewController {
     func customizeButton() {
         randomizeButton.layer.cornerRadius = randomizeButton.frame.width * 0.1
         randomizeButton.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
-        randomizeButton.setTitle("Вытянуть", for: .normal)
+        randomizeButton.setTitle("Сгенерировать", for: .normal)
         randomizeButton.titleLabel?.font = UIFont(name: "Noteworthy-Bold", size: 28)
         randomizeButton.setTitleColor(.white, for: .normal)
     }
