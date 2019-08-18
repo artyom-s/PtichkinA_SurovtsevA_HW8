@@ -82,10 +82,9 @@
 				9AD0DAD52309CAD5006B6C98 /* Model */,
 				9A5227EB2309DA100010E7B0 /* Extentions */,
 				048DCD022306D6B100643DA9 /* View */,
-				048DCCEB2306C85B00643DA9 /* LaunchScreen.storyboard */,
-				048DCCE62306C85A00643DA9 /* Main.storyboard */,
-				048DCCEE2306C85B00643DA9 /* Info.plist */,
+				9ADC37A4230A0BE70021D4C1 /* Storyboards */,
 				048DCD032307272300643DA9 /* Images.xcassets */,
+				048DCCEE2306C85B00643DA9 /* Info.plist */,
 			);
 			path = PtichkinA_SurovtsevA_HW8;
 			sourceTree = "<group>";
@@ -122,6 +121,15 @@
 				9A5227EC2309DA970010E7B0 /* ModelElements.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		9ADC37A4230A0BE70021D4C1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				048DCCEB2306C85B00643DA9 /* LaunchScreen.storyboard */,
+				048DCCE62306C85A00643DA9 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
