@@ -10,10 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--1/6-->
+        <!--Dice-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ThirdViewController" customModule="PtichkinA_SurovtsevA_HW8" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -53,7 +52,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAC-Zg-14r">
-                                <rect key="frame" x="40" y="387" width="240" height="97"/>
+                                <rect key="frame" x="40" y="387.5" width="240" height="97"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jAC-Zg-14r" secondAttribute="height" multiplier="240:97" id="3WL-Hd-RSP"/>
@@ -76,17 +75,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="1/6" id="6Hr-6b-okR"/>
+                    <tabBarItem key="tabBarItem" title="Dice" image="Dice" id="6Hr-6b-okR"/>
                     <connections>
                         <outlet property="mainLabel" destination="xP3-Xf-VaS" id="pvx-Su-X9m"/>
                         <outlet property="randomizeButton" destination="jAC-Zg-14r" id="9rW-Ft-OCe"/>
                         <outlet property="result" destination="7nL-fm-eJk" id="td4-3U-erV"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="801" y="-308"/>
         </scene>
-        <!--Custom-->
+        <!--Randomizer-->
         <scene sceneID="5zV-xm-sRD">
             <objects>
                 <viewController id="Z1M-tD-FVj" customClass="FifthViewController" customModule="PtichkinA_SurovtsevA_HW8" customModuleProvider="target" sceneMemberID="viewController">
@@ -174,7 +174,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8pW-CF-jDG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Custom" id="9Eb-0P-h3h"/>
+                    <tabBarItem key="tabBarItem" title="Randomizer" image="Shuffle" id="9Eb-0P-h3h"/>
                     <connections>
                         <outlet property="mainLabel" destination="oAA-uL-HvY" id="JfP-1g-t28"/>
                         <outlet property="maxValueTF" destination="tyQ-e0-hlq" id="5IM-Pi-nY1"/>
@@ -187,7 +187,7 @@
             </objects>
             <point key="canvasLocation" x="2205" y="-308.45070422535213"/>
         </scene>
-        <!--1/52-->
+        <!--Cards-->
         <scene sceneID="eP6-9O-srX">
             <objects>
                 <viewController id="ndc-59-CIH" customClass="FourthViewController" customModule="PtichkinA_SurovtsevA_HW8" customModuleProvider="target" sceneMemberID="viewController">
@@ -252,7 +252,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jg2-VJ-Rfh"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="1/52" id="Qqe-Iz-jxs"/>
+                    <tabBarItem key="tabBarItem" title="Cards" image="Cards" id="Qqe-Iz-jxs"/>
                     <connections>
                         <outlet property="mainLabel" destination="jY2-5f-Mez" id="kOu-An-WCz"/>
                         <outlet property="randomizeButton" destination="LeW-FZ-bk2" id="bDf-2d-xXy"/>
@@ -263,7 +263,7 @@
             </objects>
             <point key="canvasLocation" x="1491" y="-308"/>
         </scene>
-        <!--1/3-->
+        <!--One of Three-->
         <scene sceneID="PHP-vU-U93">
             <objects>
                 <viewController id="myx-sj-Qni" customClass="SecondViewController" customModule="PtichkinA_SurovtsevA_HW8" customModuleProvider="target" sceneMemberID="viewController">
@@ -328,7 +328,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5AG-cH-Czz"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="1/3" id="2t6-rT-zkU"/>
+                    <tabBarItem key="tabBarItem" title="One of Three" image="Scissors" largeContentSizeImage="Scissors" id="2t6-rT-zkU"/>
                     <connections>
                         <outlet property="mainLabel" destination="1N7-SG-aCn" id="ngW-jp-oJn"/>
                         <outlet property="randomizeButton" destination="oV3-wC-BOf" id="b1k-fj-0wf"/>
@@ -339,7 +339,7 @@
             </objects>
             <point key="canvasLocation" x="67.5" y="-308.45070422535213"/>
         </scene>
-        <!--1/2-->
+        <!--Heads or Tails-->
         <scene sceneID="kSk-Lb-Rn5">
             <objects>
                 <viewController id="Nla-Cc-LTr" customClass="FirstViewController" customModule="PtichkinA_SurovtsevA_HW8" customModuleProvider="target" sceneMemberID="viewController">
@@ -381,7 +381,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rex-O1-vjS">
-                                <rect key="frame" x="40" y="387" width="240" height="97"/>
+                                <rect key="frame" x="40" y="387.5" width="240" height="97.5"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rex-O1-vjS" secondAttribute="height" multiplier="241:98" id="uQs-bS-fnM"/>
@@ -404,7 +404,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ogT-GA-tQx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="1/2" id="2ea-lX-JKO"/>
+                    <tabBarItem key="tabBarItem" title="Heads or Tails" image="Coin" id="2ea-lX-JKO"/>
                     <connections>
                         <outlet property="mainLabel" destination="gcZ-eP-nCJ" id="jik-rV-gfh"/>
                         <outlet property="randomizeButton" destination="rex-O1-vjS" id="IyQ-kL-Zad"/>
@@ -437,4 +437,11 @@
             <point key="canvasLocation" x="-1489" y="-308"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Cards" width="18" height="23"/>
+        <image name="Coin" width="25" height="18"/>
+        <image name="Dice" width="20.5" height="20.5"/>
+        <image name="Scissors" width="25" height="16"/>
+        <image name="Shuffle" width="22" height="18"/>
+    </resources>
 </document>
