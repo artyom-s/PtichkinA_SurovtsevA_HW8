@@ -13,11 +13,12 @@ class ThirdViewController: UIViewController {
     @IBOutlet var mainLabel: UILabel!
     @IBOutlet var result: UILabel!
     @IBOutlet var randomizeButton: UIButton!
+    @IBOutlet var subview: UIView!
     
     @IBAction func generateRandomNumber() {
+        let firstElement = ModelElements.shared.dice.randomElement()!
+        let secondElement = ModelElements.shared.dice.randomElement()!
+        result.text = firstElement + secondElement
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }

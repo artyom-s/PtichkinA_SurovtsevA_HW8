@@ -13,12 +13,11 @@ class FirstViewController: UIViewController {
     @IBOutlet var mainLabel: UILabel!
     @IBOutlet var result: UILabel!
     @IBOutlet var randomizeButton: UIButton!
-    
-    @IBAction func generateRandomNumber() {
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet var subview: UIView!
 
+    @IBAction func generateRandomNumber() {
+        let element = ModelElements.shared.headsOrTails.randomElement()
+        result.text = element
     }
+
 }

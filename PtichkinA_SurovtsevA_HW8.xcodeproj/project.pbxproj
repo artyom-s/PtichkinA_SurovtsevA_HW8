@@ -16,6 +16,14 @@
 		048DCCFF2306D68E00643DA9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCCFE2306D68E00643DA9 /* FourthViewController.swift */; };
 		048DCD012306D69B00643DA9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCD002306D69B00643DA9 /* FifthViewController.swift */; };
 		048DCD042307272300643DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DCD032307272300643DA9 /* Images.xcassets */; };
+		9A5227ED2309DA970010E7B0 /* ModelElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227EC2309DA970010E7B0 /* ModelElements.swift */; };
+		9A5227EF2309E3E10010E7B0 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227EE2309E3E10010E7B0 /* UIView+Gradient.swift */; };
+		9A5227F12309F6230010E7B0 /* FirstVCCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227F02309F6230010E7B0 /* FirstVCCustomize.swift */; };
+		9A5227F32309F8040010E7B0 /* SecondVCCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227F22309F8040010E7B0 /* SecondVCCustomize.swift */; };
+		9A5227F52309FB670010E7B0 /* ThirdVCCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227F42309FB670010E7B0 /* ThirdVCCustomize.swift */; };
+		9A5227F72309FE3C0010E7B0 /* FourthVCCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227F62309FE3C0010E7B0 /* FourthVCCustomize.swift */; };
+		9A5227F9230A04F50010E7B0 /* FifthVCCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227F8230A04F50010E7B0 /* FifthVCCustomize.swift */; };
+		9A5227FB230A069C0010E7B0 /* FifthVC + TFDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5227FA230A069C0010E7B0 /* FifthVC + TFDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		048DCCFE2306D68E00643DA9 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		048DCD002306D69B00643DA9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		048DCD032307272300643DA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A5227EC2309DA970010E7B0 /* ModelElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelElements.swift; sourceTree = "<group>"; };
+		9A5227EE2309E3E10010E7B0 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		9A5227F02309F6230010E7B0 /* FirstVCCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVCCustomize.swift; sourceTree = "<group>"; };
+		9A5227F22309F8040010E7B0 /* SecondVCCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCCustomize.swift; sourceTree = "<group>"; };
+		9A5227F42309FB670010E7B0 /* ThirdVCCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVCCustomize.swift; sourceTree = "<group>"; };
+		9A5227F62309FE3C0010E7B0 /* FourthVCCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVCCustomize.swift; sourceTree = "<group>"; };
+		9A5227F8230A04F50010E7B0 /* FifthVCCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthVCCustomize.swift; sourceTree = "<group>"; };
+		9A5227FA230A069C0010E7B0 /* FifthVC + TFDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FifthVC + TFDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +78,12 @@
 		048DCCE12306C85A00643DA9 /* PtichkinA_SurovtsevA_HW8 */ = {
 			isa = PBXGroup;
 			children = (
-				9AD0DAD52309CAD5006B6C98 /* Model */,
-				048DCD022306D6B100643DA9 /* View */,
 				048DCCE22306C85A00643DA9 /* AppDelegate.swift */,
-				048DCCE62306C85A00643DA9 /* Main.storyboard */,
+				9AD0DAD52309CAD5006B6C98 /* Model */,
+				9A5227EB2309DA100010E7B0 /* Extentions */,
+				048DCD022306D6B100643DA9 /* View */,
 				048DCCEB2306C85B00643DA9 /* LaunchScreen.storyboard */,
+				048DCCE62306C85A00643DA9 /* Main.storyboard */,
 				048DCCEE2306C85B00643DA9 /* Info.plist */,
 				048DCD032307272300643DA9 /* Images.xcassets */,
 			);
@@ -85,9 +102,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9A5227EB2309DA100010E7B0 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				9A5227EE2309E3E10010E7B0 /* UIView+Gradient.swift */,
+				9A5227F02309F6230010E7B0 /* FirstVCCustomize.swift */,
+				9A5227F22309F8040010E7B0 /* SecondVCCustomize.swift */,
+				9A5227F42309FB670010E7B0 /* ThirdVCCustomize.swift */,
+				9A5227F62309FE3C0010E7B0 /* FourthVCCustomize.swift */,
+				9A5227F8230A04F50010E7B0 /* FifthVCCustomize.swift */,
+				9A5227FA230A069C0010E7B0 /* FifthVC + TFDelegate.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		9AD0DAD52309CAD5006B6C98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A5227EC2309DA970010E7B0 /* ModelElements.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -164,11 +196,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				048DCCFF2306D68E00643DA9 /* FourthViewController.swift in Sources */,
+				9A5227F52309FB670010E7B0 /* ThirdVCCustomize.swift in Sources */,
 				048DCCFB2306D66700643DA9 /* SecondViewController.swift in Sources */,
+				9A5227EF2309E3E10010E7B0 /* UIView+Gradient.swift in Sources */,
 				048DCCF92306D64B00643DA9 /* FirstViewController.swift in Sources */,
 				048DCCFD2306D67600643DA9 /* ThirdViewController.swift in Sources */,
+				9A5227F72309FE3C0010E7B0 /* FourthVCCustomize.swift in Sources */,
 				048DCCE32306C85A00643DA9 /* AppDelegate.swift in Sources */,
+				9A5227F32309F8040010E7B0 /* SecondVCCustomize.swift in Sources */,
+				9A5227F9230A04F50010E7B0 /* FifthVCCustomize.swift in Sources */,
 				048DCD012306D69B00643DA9 /* FifthViewController.swift in Sources */,
+				9A5227F12309F6230010E7B0 /* FirstVCCustomize.swift in Sources */,
+				9A5227ED2309DA970010E7B0 /* ModelElements.swift in Sources */,
+				9A5227FB230A069C0010E7B0 /* FifthVC + TFDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

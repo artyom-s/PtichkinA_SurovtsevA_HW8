@@ -13,10 +13,11 @@ class FourthViewController: UIViewController {
     @IBOutlet var mainLabel: UILabel!
     @IBOutlet var result: UILabel!
     @IBOutlet var randomizeButton: UIButton!
+    @IBOutlet var subview: UIView!
     
     @IBAction func generateRandomNumber() {
+        let element = ModelElements.shared.cards.randomElement()
+        result.text = element
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+
 }
