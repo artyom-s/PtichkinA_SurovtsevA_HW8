@@ -10,7 +10,7 @@ struct ModelElements {
     
     static let shared = ModelElements()
     
-    let headsOrTails = ["🦅", "₽"]
+    let headsOrTails = ["Ⓞ", "Ⓟ"]
     let oneOfThree = ["🧱", "✂️", "📃"]
     let dice = ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"]
     let cards = ["A♤",
